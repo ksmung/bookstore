@@ -10,3 +10,4 @@ Install all other packages and simplify the overall dependency structure
 ```
 npm install && npm dedupe
 ```
+
