@@ -86,3 +86,9 @@ Authorization: Basic klaus:pass_klaus
 GET http://localhost:8080/odata/v4/OrdersService/Orders?$expand=items
 Accept: application/json
 Authorization: Basic sabine:pass_sabine
+
+
+### Read Book from CF
+GET https://5feb01f4trial-ksm-qi0xlxyd-dev-bookstore-srv.cfapps.us10-001.hana.ondemand.com/odata/v4/BooksService/Books
+Accept: application/json
+# Authorization: Basic sabine:pass_sabine
